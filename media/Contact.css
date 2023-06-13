@@ -1,0 +1,171 @@
+    body {
+        margin: 0;
+        padding: 0;
+         background: url(Picture/concrete_seamless.webp);
+     }
+     header {
+         position: fixed;
+         top: 0;
+         z-index: 99;
+         width: 100%;
+         border-bottom: 2px solid #999;
+         background-color: white;
+     }
+     .conteyner { 
+         display: flex;
+         margin: 0 auto;
+         justify-content: space-between;
+         width: 100%;
+         max-width: 960px;
+         
+         font-family: Georgia, 'Times New Roman', Times, serif;
+        
+     }
+     .logo {
+         border: solid 0px ;
+         background-color: #4aaaa5;
+         padding: 2px;
+         color: white;
+         width: 250px;
+         text-align: center;
+        
+     
+     }
+     ul {
+         display: flex;
+         list-style: none;
+         gap: 5px;
+        
+         
+     }
+     a {
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-style: normal;
+         text-decoration: none;
+         color: #999;
+         font-size: 18px;
+         line-height: 3;
+     }
+     .a, .b {
+        border-right: solid 0.1px #efefef;
+        padding: 0px 10px 0px 10px;
+     }
+     :hover>a {
+         color: black;
+     }
+     .conteyner2 {
+       display: flex;
+        height: 500px;
+         margin-top: 130px;
+         gap: 40px;
+         margin-left: 230px;
+     }
+     
+     .contact {
+         border: solid 1px #ddd;
+         background-color: white;
+         width: 570px;
+         padding: 35px;
+         height: 550px;
+    
+     }
+     .contact>h2 {
+     color: #4aaaa5;
+     font-size: 30px;
+     border-bottom: solid 3px #ddd;
+     padding-bottom: 20px;
+     }
+     label {
+font-size: 20px;
+color: #999;
+line-height: 2;
+     }
+input {
+    height: 35px;
+    padding: 0 10px;
+    color: #ddd;
+    border: solid 1px #ddd;
+    font-size: 14px;
+    width: 100%;
+}
+textarea {
+    height: 200px;
+    padding: 0 10px;
+    color: #ddd;
+    border: solid 1px #ddd;
+    font-size: 14px;
+    width: 100%;
+}
+button {
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    border: solid 0px;
+    background-color: #4aaaa5;
+    margin-top: 10px;
+}
+     
+     .connect {
+         text-align: center;
+         color: #4aaaa5;
+         border: solid 1px #ddd;
+         width: 230px;
+         padding: 20px;
+         height: 150px;
+         background-color: white;
+     }
+     .picture>img {
+         width: 62px;
+     }
+     .connect>h2 {
+         font-size: 25px;
+         padding-bottom: 15px;
+         border-bottom: solid 1px #ddd;
+         
+     }
+     footer {
+
+         margin-top: 170px;
+     border-top: #4aaaa5 solid 8px;
+     width: 100%;
+     height: 100px;
+     background-color: #666;
+     text-align: center;
+     color: #ccc;
+     line-height: 4;
+     }
+
+     @media screen and ( max-width: 980px) {
+        .logo{
+            width: auto;
+        }
+        .conteyner{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .conteyner ul{
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .conteyner2 {
+            display: flex;
+            flex-direction: column;
+           margin-left: 20px;
+           margin-top: 190px;
+        }
+        .connect {
+        padding-right: 345px;
+        }
+        .contact {
+            width: 523px;
+        }
+    footer {
+        margin-top: 400px;
+        width: 100%;
+    }
+        
+        
+     }

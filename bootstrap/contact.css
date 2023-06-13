@@ -1,0 +1,92 @@
+body {
+    background: url(Picture/ignasi_pattern_s.png);
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    border: solid 0px;
+    background-color: white;
+}
+
+.name {
+    color: white;
+    border: solid 0px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+    width: 180px;
+    height: 70px;
+
+}
+
+.nav-link {
+    color: #777;
+    line-height: 3;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.blok {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 17px;
+    color: #bbc;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 650px
+}
+
+textarea {
+    height: 200px;
+}
+button {
+    border: solid 0px;
+    background-color: #4aaaa5;
+    color: white;
+    border-radius: 0;
+    padding: 10px;
+    width: 100px;
+}
+
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.img>img {
+    width: 55px;
+    text-align: center;
+
+}
+
+footer {
+    border: solid 1px solid;
+    width: 100%;
+    background-color: #666666;
+    display: block;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-size: 14px;
+    margin-top: 15px;
+    border-top: #4aaaa5 solid 8px;
+    line-height: 4;
+}
